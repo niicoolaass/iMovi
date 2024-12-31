@@ -1,63 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", serif;
 }
-
-.bg-primary-color {
+  
+  .bg-primary-color {
     background-color: #fff;
-}
-
-.bg-secondary-color {
-    color: #ece8ea;
-}
-
-.gb-dark-color {
+  }
+  
+  .bg-secondary-color {
+    background-color: #ece8e2;
+  }
+  
+  .bg-dark-color {
+    background-color: #050505;
+  }
+  
+  .primary-color {
     color: #050505;
-}
-
-.primary-color {
-    color: #050505;
-}
-
-.secondary-color {
+  }
+  
+  .secondary-color {
     color: #7a7a7a;
-}
-
-/* NAVBAR */
-
-#navbar {
+  }
+  
+  /* NAVBAR */
+  #navbar {
     border-bottom: 1px solid #7a7a7a;
-}
-
-#navbar a:hover {
+  }
+  
+  #navbar a {
+    color: #050505;
+  }
+  
+  #navbar a:hover {
     color: #7a7a7a;
-    transition: 0.3s;
-}
-
-#navbar a.active {
+  }
+  
+  #navbar .active {
     border-bottom: 1px solid #050505;
-}
-
-.navbar-brand {
+  }
+  
+  .navbar-brand {
     display: flex;
-}
-
-.navbar-brand img {
+  }
+  
+  .navbar-brand img {
     width: 40px;
-}
-
-.navbar-brand span {
-    color: #000000;
-    font-size: 1.5rem;
+  }
+  
+  .navbar-brand span {
     font-weight: 700;
-    margin-left: 0.5rem;
-}
-
-#navbar-items .navbar-nav {
+    font-size: 1.5em;
+    margin-left: 0.5em;
+  }
+  
+  #navbar-items .navbar-nav {
     display: flex;
     justify-content: center;
     width: 100%;
-}
-
-#navbar-items .nav-item {
-    margin: 0 1rem;
-}
+  }
+  
+  #navbar-items .nav-item {
+    margin: 0 1em;
+  }
+  
+  
+  /* SLIDER */

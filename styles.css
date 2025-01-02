@@ -29,11 +29,11 @@
     border-bottom: 1px solid #7a7a7a;
   }
   
-  #navbar a {
+  #navbar-items a {
     color: #050505;
   }
   
-  #navbar a:hover {
+  #navbar-items a:hover {
     color: #7a7a7a;
   }
   
@@ -65,8 +65,7 @@
     margin: 0 1em;
   }
   
-  
-  /* SLIDER */
+/* SLIDER */
 
 #slider {
   margin-top: 8em;
@@ -119,5 +118,34 @@
   .carousel-indicators {
     bottom: 7em;
   } 
-  
+}
+
+/* MINI BANNERS */
+
+#mini-banners {
+  margin-bottom: 4em;
+}
+
+#mini-banners .card {
+  padding: 2em 0.3em;
+  border-radius: 0;
+}
+
+#mini-banners i {
+  font-size: 4em;
+}
+
+#mini-banners .card-title {
+  margin-bottom: 1.5em;
+}
+
+#mini-banners .btn {
+  margin-top: 1.5em;
+  padding: 0.6em 1.2em;
+}
+
+@media(min-width: 768px){
+  #mini-banners {
+    margin-top: -6em;
+  }
 }

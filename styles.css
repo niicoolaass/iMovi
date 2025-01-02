@@ -163,11 +163,11 @@
 }
 
 .title::before {
-  width: 100px;
+  width: 75px;
   border-top: 4px solid #7a7a7a;
   content: "";
   position: absolute;
-  bottom: 2.5em;
+  bottom: 2.2em;
 }
 
 #featured-images {

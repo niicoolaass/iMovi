@@ -102,3 +102,22 @@
 .carousel-indicators .active {
   background-color: #000;
 }
+
+@media(min-width: 768px){
+  #slider .carousel-caption {
+    bottom: 15em;
+  }
+
+  #slider .carousel-caption h5 {
+    font-size: 4em;
+  }
+  #slider .btn {
+    padding: 0.6 1.6em;
+    font-size: 1.2em;
+  }
+  
+  .carousel-indicators {
+    bottom: 7em;
+  } 
+  
+}
